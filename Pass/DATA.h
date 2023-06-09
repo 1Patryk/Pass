@@ -23,8 +23,8 @@ public:
 
     Data_base* Data_pointer;
 
-    void Load_data(Data_base* Data_base);
-    void Print_pass(Data_base* Data_base);
+    void Load_data_from_user(Data_base* Data_base);
+    void Print_pass_in_the_console(Data_base* Data_base);
 
     Authorisation();
 };
